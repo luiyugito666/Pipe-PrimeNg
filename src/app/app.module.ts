@@ -1,3 +1,4 @@
+import { SharedModule } from './shared/shared.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -11,6 +12,7 @@ import { RippleModule } from 'primeng/ripple';
 import { TimelineModule } from 'primeng/timeline';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { TimelineModule } from 'primeng/timeline';
     ButtonModule,
     RippleModule,
     TimelineModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule, 
+    SharedModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
