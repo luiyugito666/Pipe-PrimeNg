@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import { MenuItem } from 'primeng/api';
 
 @Component({
@@ -19,17 +20,20 @@ export class MenuComponent {
               {
                 label: 'Textos y Fechas',
                 icon: 'pi pi-align-left',
+                routerLink:"/"
               },
               
               {
                 label: 'Numero',
-                icon:'pi pi-dollar'
+                icon: 'pi pi-dollar',
+                routerLink:"numbers"
                 
               },
               
               {
                 label: 'No comunes',
-                icon:'pi pi-globe'
+                icon: 'pi pi-globe',
+                routerLink: "uncommon"
                 
               }
 
